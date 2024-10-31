@@ -1,0 +1,76 @@
+/* @group offerte-internet-widget */
+
+.offerte-internet-widget{
+	color: #494949;
+	font-family: sans-serif;
+	font-size: inherit;
+	text-align: center;
+}
+.offerte-internet-widget a{
+	color: #494949;
+	text-decoration: none;
+}
+.offerte-internet-widget__logo{
+	width: 25px;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+.offerte-internet-widget__h2{
+	margin-top: 10px;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+.offerte-internet-widget p{
+	padding: 0 15px;
+	font-size: .8em;
+	text-align: justify;
+}
+.offerte-internet-widget ul{
+	padding: 0;
+	list-style: none;
+}
+.offerte-internet-widget li{
+	padding: 1.2em;
+	margin: 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+}
+.offerte-internet-widget li:first-child{
+	border-top: none;
+}
+.offerte-internet-widget li:last-child{
+	border-bottom: none;
+}
+.offerte-internet-widget .offerta__link{
+	display: block;
+	padding: .5em 0;
+	margin-bottom: .4em;
+}
+.offerte-internet-widget .operatore{
+	margin: 0 auto .4em;
+	display: block;
+	text-indent: 9999px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.offerte-internet-widget .operatore img {
+	display: block;
+	width: 130px;
+	height: auto;
+	margin: 0 auto;
+}
+.offerte-internet-widget .speed{
+	margin: 0 1em 0 0;
+}
+.offerte-internet-widget del{
+	color: #a80000;
+	margin: 0 .6em;
+	font-size: .8em;
+	display: none;
+}
+.offerte-internet-widget .promo{
+	color: green;
+	margin: 0 0 0 1em;
+}
+
+/* @end */
